@@ -5,14 +5,19 @@ library(tm)
 library(purrr)
 library(ggplot2)
 
-library(dplyr)
-text_df <- data_frame(line = 1:4, text = text)
+text <- paste(readLines("Memo_Tilburg_2.txt"))
 
-text_df
+text
+
+
+library(dplyr)
+tilburgText <- data_frame(line = 1:6, text = text)
+
+tilburgText
   
   
 library(tidytext)
 
-text_df %>%
+tilburgText %>%
   unnest_tokens(word, text)  
 
