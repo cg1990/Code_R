@@ -1,0 +1,14 @@
+We are still discussing the site. The demo project will be a school building. But we still need to decide, which one we will choose.
+If we take the nursery school NEMO, we must replace the heating system. We also replcae the single class windows.
+We need to be very carefull during the renovation because the building is under cultural heritage.
+Another problem could be the big control heating system with manual regulation.
+For the BIM model we are currently make a approach. For the renovation we make choose some good solutions out of the P2Endure project. 
+If it it possible, we want to integrate the windows from BGTech.
+If we also be able to renovate the second school, we need to renovate the bathrooms. We also want to hire external partners to do the safety check.
+for the external partners we need to have a tender. The best offer in terms of price and quality will get the contract.
+The tender will be placed by the municipality. So we do not need consultants to make an offer.
+At this time, we do not slip into the mapping or the modelling phase. First we need to finished the BIM model. The modelling is based on the data and structural drawings of the building.
+For the making process we will integrate products from the P2Endure project.
+We also need to concluse a subcontract to do the mountings on the building.
+We also want to evaluate the energy of the building. Maybe we are install some monitoring equipment. But we are definetly install monitoring equipment to measure the gas consumption and the 
+external  temparatur radiators. For us it is difficult to plan the future interventions because of the planing horizon.

@@ -7,7 +7,10 @@ library(ggplot2)
 
 text <- paste(readLines("Memo_Tilburg_2.txt"))
 
-text
+filelist = list.files(pattern = ".*.txt")
+datalist = lapply(filelist, function(x)readLines(x))
+datafr = do.call("rbind", datalist) 
+
 
 
 library(dplyr)
@@ -36,4 +39,10 @@ library(dplyr)
     inner_join(nrc_joy) %>%
     count(word, sort = TRUE)  
   tidy_books
+  
+library(wordcloud)
+  tidy_books %>%
+    anti_join(stop_words) %>%
+    count(word) %>%
+    with(wordcloud(word, n, max.words = 100))  
   
